@@ -6,7 +6,7 @@ import plotly.express as px
 @st.cache_data
 def load_treatment_data():
     try:
-        data = pd.read_csv('/Users/fernandojeandijkinga/Downloads/dados_bezerras_pre_registrados.csv', delimiter=";")
+        data = pd.read_csv('.github/dados_bezerras_pre_registrados.csv', delimiter=";")
         st.write("Dados de tratamentos carregados com sucesso.")
     except FileNotFoundError:
         data = pd.DataFrame(columns=["Propriedade", "Brinco da Bezerra", "Razão do Tratamento", "Tipo de Medicamento", "Nome do Medicamento", "Dose", "Data da 1ª Dose", "Nº de Doses", "Responsável"])
@@ -19,7 +19,7 @@ def load_treatment_data():
 # Função para salvar dados de tratamentos
 def save_treatment_data(data):
     try:
-        data.to_csv('/Users/fernandojeandijkinga/Downloads/dados_bezerras_pre_registrados.csv', index=False, sep=';')
+        data.to_csv('.github/dados_bezerras_pre_registrados.csv', index=False, sep=';')
         st.write("Dados de tratamentos salvos com sucesso.")
     except Exception as e:
         st.write(f"Erro ao salvar os dados de tratamentos: {e}")
@@ -28,7 +28,7 @@ def save_treatment_data(data):
 @st.cache_data
 def load_bezerra_data():
     try:
-        data = pd.read_csv('/Users/fernandojeandijkinga/Downloads/Cadastro_de_bezerra.csv', delimiter=";")
+        data = pd.read_csv('.github/Cadastro_de_bezerra.csv', delimiter=";")
         st.write("Dados de cadastro de bezerras carregados com sucesso.")
     except FileNotFoundError:
         data = pd.DataFrame(columns=["Propriedade", "Brinco", "Nascimento", "Brinco mãe", "Peso", "Altura", "Vol. Colostro", "Brix"])
@@ -41,7 +41,7 @@ def load_bezerra_data():
 # Função para salvar dados de cadastro de bezerras
 def save_bezerra_data(data):
     try:
-        data.to_csv('/Users/fernandojeandijkinga/Downloads/Cadastro_de_bezerra.csv', index=False, sep=';')
+        data.to_csv('.github/Cadastro_de_bezerra.csv', index=False, sep=';')
         st.write("Dados de cadastro de bezerras salvos com sucesso.")
     except Exception as e:
         st.write(f"Erro ao salvar os dados de cadastro de bezerras: {e}")
