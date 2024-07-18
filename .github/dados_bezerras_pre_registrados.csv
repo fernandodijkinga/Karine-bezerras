@@ -1,0 +1,28 @@
+﻿Propriedade;Brinco da Bezerra;Razão do Tratamento;Tipo de medicamento;Nome do Medicamento;Dose;Data da 1ª Dose;Nº de Doses;Responsável
+1;3139;Diarreia;;Prador;2;12/06/2024;3;Simone
+1;3129;Diarreia;;Borgal;5;12/06/2024;3;Simone
+1;3023;Pneumonia;;Maxflor;3;12/06/2024;2;Ana
+1;3023;Pneumonia;;Prador;2,5;12/06/2024;3;Ana
+3;7867;Sangue;;Sucrafilm;;13/06/2024;3;Dalvane
+3;7867;Sangue;;Vitan;5;13/06/2024;5;Dalvane
+3;7866;Pneumonia;;Maxflor;2;13/06/2024;2;Dalvane
+3;7866;Pneumonia;;Prador;1;13/06/2024;3;Dalvane
+3;7858;Diarreia;;Niglumine;;13/06/2024;3;Dalvane
+3;7858;Diarreia;;Carvao;100;13/06/2024;3;Dalvane
+3;7825;Pneumonia;;Maxflor;3;13/06/2024;2;Ana
+3;7825;Pneumonia;;Prador;2,5;13/06/2024;3;Ana
+1;3145;Pneumonia + Diarreia;;Maxflor;2;13/06/2024;2;Simone
+1;3145;Pneumonia + Diarreia;;Prador;2;13/06/2024;3;Simone
+1;3140;Sangue;;Sucrafilm;;13/06/2024;3;Dalvane
+1;3140;Sangue;;Vitan;5;13/06/2024;5;Dalvane
+1;3130;Sangue;;Borgal;5;13/06/2024;3;Dalvane
+1;3130;Diarreia;;Florax;;13/06/2024;5;Dalvane
+3;7841;Pneumonia;;Maxflor;3;14/06/2024;2;Ana
+3;7841;Pneumonia;;Prador;2,5;14/06/2024;3;Ana
+2;3878;Pneumonia;;Maxflor;3;14/06/2024;2;Ana
+2;3878;Pneumonia;;Prador;2,5;14/06/2024;3;Ana
+1;3135;Diarreia;;Borgal;5;14/06/2024;3;Dalvane
+1;3135;Diarreia;;Prador;2;14/06/2024;3;Dalvane
+1;3132;Diarreia + Sangue;;Sucrafilm;1;14/06/2024;3;Dalvane
+1;3132;Diarreia + Sangue;;Vitan;5;14/06/2024;7;Dalvane
+1;3132;Diarreia + Sangue;;Niglumine;2;14/06/2024;1;Dalvane
